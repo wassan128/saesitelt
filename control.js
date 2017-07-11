@@ -78,7 +78,7 @@ $(document).on("ready", function() {
 		  	break;
 
 		  case "clk-inf":
-		  	$("ul#e-kan-ji").append("<span id='ipsum' style='font-family: \"ＭＳ 明朝\"'><br/>良い感じにするためには他にもいろいろな要素があると思いますが、良い感じを獲得するためには慣れが大事だという点が大きかったり、無意識にやってたりすることもあると思うので全ては書ききれません…(´・ω・｀)<br/><hr/>ぽきたw 魔剤ンゴ！？ ありえん良さみが深いw<br/>二郎からのセイクで優勝せえへん？ そり！そりすぎてソリになったw<br/>や、漏れのモタクと化したことのNASA✋ <br/>そりでわ、無限に練りをしまつ<br/>ぽやしみ〜😇<hr/><marquee><img src='./image/salmon.jpg' width='100px'><img src='./image/salmon.jpg' width='100px'><img src='./image/salmon.jpg' width='100px'><img src='./image/salmon.jpg' width='100px'><img src='./image/salmon.jpg' width='100px'><img src='./image/salmon.jpg' width='100px'><img src='./image/salmon.jpg' width='100px'><img src='./image/salmon.jpg' width='100px'><img src='./image/salmon.jpg' width='100px'><img src='./image/salmon.jpg' width='100px'></marquee><hr/>(オタク特有の早口)(ｸﾁｬｸﾁｬ)(アディダスの財布)(親が買ってきたチェックシャツ)(ダボダボのジーパン)(修学旅行で木刀購入)(午後の紅茶)(プーマの筆箱)(指紋でベタベタのメガネ)(プリパラでマジ泣き)(ワキガ) (ドラゴンの裁縫セット)(瞬足)(コーナーで差をつけろ)<hr/></font>")
+		  	$("ul#e-kan-ji").append("<span id='ipsum' style='font-family: \"ＭＳ 明朝\"'><br/>良い感じにするためには他にもいろいろな要素があると思いますが、良い感じを獲得するためには慣れが大事だという点が大きかったり、無意識にやってたりすることもあると思うので全ては書ききれません…(´・ω・｀)</font>")
 		  	break;
 		}
 	});
