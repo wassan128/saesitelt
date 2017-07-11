@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "03スマートフォントUI";
+	font-weight: normal;
+	font-size: 32pt;
+}
+*::-webkit-scrollbar {
+	width: 5px;
+	height: 10px;
+}
+*::-webkit-scrollbar-track {
+	background: #EEE;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+}
+*::-webkit-scrollbar-thumb {
+	background: #71B791;
+	border-radius: 10px;
+}
+html, body {
+	background: #9ED5B7;
+	width: 100%;
+	height: 100%;
+}
+	div, img:not(.img-obj) {
+		box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+		border-radius: 3px;
+	}
+	h1 {
+		font-size: 45pt;
+		margin-bottom: 0.2em;
+	}
+	.slides:not(.titles):not(.subtitles) > h1 {
+		padding-bottom: 0.2em;
+		border-bottom: 5px solid #9ED5B7;
+	}
+		h1 * {
+			font-size: 120%;
+		}
+	ul {
+		list-style: none;
+	}
+		ul li {
+			transition: .5s;
+			cursor: pointer;
+		}
+		ul#e-kan-ji li:hover {
+			background: #E8F3ED;
+			box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+		}
+		ul li:before {
+			content: "✓ ";
+			color: #82BF9E;
+			font-weight: bold;
+			font-size: 20pt;
+		}
+
+
+	.slides {
+		display: none;
+		background: #FFF;
+		width: 95%;
+		height: 95%;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		padding: 1em;
+		overflow: auto;
+		box-sizing: border-box;
+	}
+	.slides:first-child {
+		display: block;
+	}
+	.slides > *:not(h1) {
+		line-height: 2em;
+	}
+
+	.titles, .subtitles {
+		text-align: center;
+	}
+	.titles {
+		border-top: 20px solid #4A9F67;
+	}
+		.titles h1 {
+			font-size: 55pt;
+			margin-top: 18%;
+			padding-bottom: 0.5em;
+			border-bottom: 2px solid #9ED5B7;
+		}
+		.titles h2 {
+			font-size: 25pt;
+			margin-top: 0.5em;
+		}
+
+		.subtitles h1 {
+			font-size: 45pt;
+			margin-top: 2.5em;
+			line-height: 2em;
+		}
+	.columns {
+		margin-top: 1em;
+		padding: 0.5em;
+		color: #FFF;
+		background: #2F7C4C;
+		text-align: center;
+	}
+	
+	/* detail settings */
+	.size-s {font-size: 25pt}
+	.size-m {font-size: 40pt}
+	.size-l {font-size: 50pt}
+	.center {text-align: center}
+	.clickable {
+		cursor: pointer;
+		transition: .5s;
+	}
+	.clickable:hover {
+		opacity: 0.5;
+		border-bottom: 3px solid #9ED5B7;
+	}
+	.deep-1 {
+		font-size: 80%;
+		text-indent: 1em;
+		line-height: 1em;
+		margin-bottom: 1em;
+	}
+	.deep-1:before {
+		content: "・";
+	}
+	.emphas {
+		color: #30894E;
+		font-weight: bold;
+	}
+
+	.abs-elm {
+		position: absolute;
+	}
+	#abs-twico { /* penguin picure twitter icon */
+		width: 250px;
+		right: 1em;
+		bottom: 1em;
+	}
+	#abs-reb {
+		display: none;
+		position: fixed;
+		bottom: 2em;
+		right: 2em;
+		border-radius: 50%;
+		background: #FFF;
+		color: #117C62;
+		width: 150px;
+		height: 150px;
+		font-size: 30pt;
+		border: 20px solid #117C62;
+		box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+		outline: none;
+		cursor: pointer;
+	}
